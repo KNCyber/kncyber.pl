@@ -34,20 +34,12 @@ app = Starlette(routes=[
     Route("/", endpoint=simple("home")),
     Route("/publications", endpoint=simple("publications")),
     Route("/about", endpoint=simple("about")),
-    #  Route("/faq", endpoint=simple("faq")),
-    #  Route("/blog", endpoint=simple("blog")),
-    #  Route("/n", endpoint=simple("notes")),
     Route("/publications/{name:str}", endpoint=advanced("publications")),
     Route("/writeups", endpoint=simple("writeups")),
     #  Route("/writeups/{name:str}", endpoint=advanced("writeups")),
 
     # redirects outside
-    #  Route("/github", lambda _: RedirectResponse("https://github.com/BonusPlay")),
-    #  Route("/twitter", lambda _: RedirectResponse("https://twitter.com/@BonusPlay3")),
-    #  Route("/linkedin", lambda _: RedirectResponse("https://https://www.linkedin.com/in/adam-kliś")),
-    #  Route("/facebook", lambda _: RedirectResponse("https://facebook.com/BonusPlay3")),
-    #  Route("/asktoask", lambda _: RedirectResponse("https://www.youtube.com/watch?v=53zkBvL4ZB4")),
-    #  Route("/why", lambda _: RedirectResponse("https://www.youtube.com/watch?v=VPpIjhtgGj0")),
+    Route("/asktoask", lambda _: RedirectResponse("https://www.youtube.com/watch?v=53zkBvL4ZB4")),
 
     # trolls
     Route("/teapot", lambda _: PlainTextResponse("I'm a teapot", status_code=418)),
