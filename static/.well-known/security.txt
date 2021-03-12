@@ -1,0 +1,3 @@
+Contact: root@bonusplay.pl
+Encryption: https://keyserver.pgp.com/vkd/DownloadKey.event?keyid=0x8B67CF3C9224717D
+Preferred-Languages: en, pl
