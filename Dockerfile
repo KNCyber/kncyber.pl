@@ -15,4 +15,4 @@ RUN pip install --no-cache-dir /wheels/*.whl
 
 COPY . .
 
-ENTRYPOINT ["python", "./src/app.py"]
+ENTRYPOINT ["python", "./app.py"]
