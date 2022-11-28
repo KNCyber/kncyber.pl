@@ -1,0 +1,12 @@
+{
+  "name": "KNCyber",
+  "version": "1.0.0",
+  "main": ".eleventy.js",
+  "scripts": {
+    "serve": "eleventy --serve",
+    "build": "eleventy --input=. --output=_site"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  }
+}
