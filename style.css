@@ -1,0 +1,230 @@
+body {
+    background-color: #333333;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 1.25rem;
+    margin: 2.5vh 15vw;
+    text-align: justify;
+    word-wrap: break-word;
+}
+
+@media only screen and (max-width: 1023px) {
+    body {
+        margin: 2.5vh 2vw;
+    }
+}
+
+main {
+	margin-top: 1em;
+}
+
+/* color links */
+a {
+    color: #1F8BFF;
+    text-decoration: none !important;
+}
+
+/* wrap code in pre tags */
+pre {
+    white-space: pre-wrap;
+}
+
+/* border around tables */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* details summary transition */
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+
+@keyframes sweep {
+  0%    {opacity: 0; margin-left: -10px}
+  100%  {opacity: 1; margin-left: 0px}
+}
+
+/* details nesting */
+details > details {
+	margin-left: 2rem;
+}
+
+/* padding on the sides for code blocks */
+.highlight {
+	padding: 0em 1em;
+}
+ 
+.navbar {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-bottom: #1F8BFF dashed;
+    font-size: 1.25rem;
+}
+
+.navbar .link-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.link-list li {
+    display: inline-table;
+    padding: 1vh;
+}
+
+.link-list li a {
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none !important;
+    transition: all 0.1s ease-in-out;
+}
+
+.link-list li a:hover {
+    transform: scale(1.25);
+}
+
+.navbar .banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .avatar {
+    padding-right: 1vw;
+    max-height: 5vw;
+}
+
+.navbar .spacer {
+    user-select: none;
+    transform: none !important;
+}
+
+.question:before {
+    content: "Q:";
+    padding-right: 1vw;
+}
+
+.answer:before {
+    content: "A:";
+    padding-right: 1vw;
+}
+
+/* images keep aspect ratio */
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* Used for text */
+.h0 {
+    font-size: 1.3rem;
+}
+
+code {
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, .50);
+    color: #cc43dc;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: royalblue;
+}
+
+/* TREE DIAGRAM https://codepen.io/ross-angus/pen/jwxMjL */
+.tree, .tree ul, .tree li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.tree {
+    margin: 0 0 1em;
+    text-align: center;
+}
+
+.tree, .tree ul {
+    display: table;
+}
+
+.tree ul {
+    width: 100%;
+}
+
+.tree li {
+    display: table-cell;
+    padding: .5em 0;
+    vertical-align: top;
+}
+
+.tree li:before {
+    outline: solid 1px #666;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.tree li:first-child:before {
+    left: 50%;
+}
+
+.tree li:last-child:before {
+    right: 50%;
+}
+
+.tree code, .tree span {
+    border: solid .1em #666;
+    border-radius: .2em;
+    display: inline-block;
+    margin: 0 .2em .5em;
+    padding: .2em .5em;
+    position: relative;
+}
+
+.tree ul:before,
+.tree code:before,
+.tree span:before {
+    outline: solid 1px #666;
+    content: "";
+    height: .5em;
+    left: 50%;
+    position: absolute;
+}
+
+.tree ul:before {
+    top: -.5em;
+}
+
+.tree code:before,
+.tree span:before {
+    top: -.55em;
+}
+
+.tree > li {
+    margin-top: 0;
+}
+
+.tree > li:before,
+.tree > li:after,
+.tree > li > code:before,
+.tree > li > span:before {
+    outline: none;
+}
