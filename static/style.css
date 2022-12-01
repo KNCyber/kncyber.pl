@@ -1,10 +1,9 @@
 body {
-    background-color: #333333;
+    background-color: #2b2b2b;
     color: whitesmoke;
     font-family: monospace;
     font-size: 1.25rem;
     margin: 2.5vh 15vw;
-    text-align: justify;
     word-wrap: break-word;
 }
 
@@ -60,7 +59,6 @@ details > details {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    border-bottom: #1F8BFF dashed;
     font-size: 1.25rem;
 }
 
@@ -70,6 +68,7 @@ details > details {
     padding: 0;
     overflow: hidden;
     text-align: center;
+    background: #393939;
 }
 
 .link-list li {
@@ -227,4 +226,19 @@ code {
 .tree > li > code:before,
 .tree > li > span:before {
     outline: none;
+}
+
+h3 {
+    background: #222;
+    padding: 10px;
+    border-bottom: 5px solid #393939;
+    border-radius: 5px;
+}
+
+h4 {
+    background: #393939;
+    padding: 5px;
+    border-bottom: 5px solid #222;
+    border-radius: 5px;
+    font-weight: normal;
 }
