@@ -231,14 +231,10 @@ code {
 h3 {
     background: #222;
     padding: 10px;
-    border-bottom: 5px solid #393939;
-    border-radius: 5px;
 }
 
 h4 {
     background: #393939;
     padding: 5px;
-    border-bottom: 5px solid #222;
-    border-radius: 5px;
     font-weight: normal;
 }
