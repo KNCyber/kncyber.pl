@@ -3,5 +3,5 @@ layout: "layouts/post.njk"
 ---
 ### publications / pwned systems
 
-- net.sspw.pl - coming soon
+- [entire SSPW](https://sspw.pl/) - sadly coming never :(
 - ZTM/WTP - coming soon
