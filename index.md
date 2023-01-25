@@ -9,15 +9,15 @@ layout: "layouts/post.njk"
 
 ### Upcoming
 
-- 17/11/2022 - Practical web hacking with burp and nmap
-- 24/11/2022 - How does internet even work? From cable to HTTP
-
 ### Past
 
 #### 22Z
 
 - 10/10/2022 - Intro to Linux - [(terminal)](https://docs.google.com/presentation/d/1lUJG3ZeYpzkbV2AIr3Tb9Pf5dpYz7MOxmmbHANYckP4/edit?usp=sharing)
 - 03/10/2022 - Intro to Linux - [(ssh)](https://docs.google.com/presentation/d/17pdNQ7bMUJpsCE73hYcIy1UXxaqCriwTTp2xZXhgFR8/edit?usp=sharing)
+- 17/11/2022 - Practical web hacking with burp and nmap
+- 08/12/2022 - Intro to Vim
+- 05/01/2023 - Intro to Docker
 
 #### 21L
 
