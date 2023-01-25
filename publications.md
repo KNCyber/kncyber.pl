@@ -3,6 +3,6 @@ layout: "layouts/post.njk"
 ---
 ### publications / pwned systems
 
-- net.sspw.pl - coming soon
+- [entire SSPW](https://sspw.pl/) - sadly coming never :(
 - ZTM/WTP - coming soon
 - [Project Artemis](https://cert.pl/skanowanie/) - a scalable, web vulnerability scanner. Created in cooperation with [CERT Polska](https://cert.pl).
