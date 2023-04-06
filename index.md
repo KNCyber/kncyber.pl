@@ -9,7 +9,15 @@ layout: "layouts/post.njk"
 
 ### Upcoming
 
-### Past
+- 13/04/2023 - Wykrywanie fałszywych opinii na google maps
+
+### 23L
+
+- 09/03/2023 - Jak działa internet?
+- 16/03/2023 - Prawie udane laby
+- 23/03/2023 - Jak nauczyliśmy się hakować karty miejskie?
+- 30/03/2023 - Jak dostać roota na Philips Hue i co można z tym zrobić?
+- 06/04/2023 - Praktyczne ataki na warstwy sieciowe?
 
 #### 22Z
 
@@ -19,7 +27,7 @@ layout: "layouts/post.njk"
 - 08/12/2022 - Intro to Vim
 - 05/01/2023 - Intro to Docker
 
-#### 21L
+#### 22L
 
 - 07/06/2022 - Cloud Security Academy: Reference Security Architecture in Google Cloud [(ISSA Polska feat. KNCyber)](https://www.elka.pw.edu.pl/Aktualnosci/Seminaria-wyklady-warsztaty/Cloud-Security)
 - 26/05/2022 - Warsztat: Bezpieczne hostowanie aplikacji na dockerze
