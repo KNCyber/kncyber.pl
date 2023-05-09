@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <title>Facebook event banner generator</title>
+    <style>
+        @font-face {
+            font-family: 'Cantarell';
+            src: url('/Cantarell-VF.otf') format('opentype');
+        }
+
+        body {
+            font-weight: 900;
+            font-family: 'Cantarell', serif;
+        }
+
+        .banner__wrapper {
+            width: 1200px;
+            height: 628px;
+            background: #202020;
+            box-shadow: inset 0 0 90px rgba(0, 0, 0, 0.75);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+
+        .banner__inside {
+            width: 938px;
+        }
+
+        .banner__title {
+            font-size: 62px;
+            font-weight: 900;
+            text-align: center;
+            margin-bottom: 53px;
+        }
+
+        .banner_bottom {
+            width: 720px;
+            display: flex;
+            justify-content: center;
+            margin-left: 50px;
+        }
+
+        .banner__details {
+            margin-left: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .banner__details__label {
+            font-size: 62px;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+
+        .banner__details__under {
+            color: #cacaca;
+            font-size: 27px;
+
+        }
+
+        .box {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px 16px;
+            display: inline-block;
+            font-size: 39px;
+            margin-right: 22px;
+        }
+
+        .box__row {
+            margin-top: 10px;
+        }
+
+        span {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body spellcheck="false">
+<div class="banner__wrapper">
+    <div class="banner__inside" contenteditable>
+        <div class="banner__title">
+            Potężny shell czyli Windows Powershell w akcji
+        </div>
+        <div class="banner_bottom">
+            <img src="/kncyber_logo_web_minified.svg" class="min-height: 246px" height="246px"/>
+            <div class="banner__details">
+                <span class="banner__details__label">Spotkanie</span>
+                <span class="banner__details__under">(otwarte, tak jak wszystkie)</span>
+                <div class="box__row">
+                    <div class="box">Sala 133</div>
+                    <div class="box">18:15</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
