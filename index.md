@@ -9,23 +9,28 @@ layout: "layouts/post.njk"
 
 ### Upcoming
 
-- 13/04/2023 - Wykrywanie fałszywych opinii na google maps
+- 25/05/2023 - WhySoJava 0x2 - Serializacja i deserializacja w Java
 
 ### 23L
 
-- 09/03/2023 - Jak działa internet?
-- 16/03/2023 - Prawie udane laby
-- 23/03/2023 - Jak nauczyliśmy się hakować karty miejskie?
-- 30/03/2023 - Jak dostać roota na Philips Hue i co można z tym zrobić?
+- 18/05/2023 - WhySoJava 0x1 - Serializacja i deserializacja w Java
+- 11/05/2023 - Potężny shell czyli Windows Powershell w akcji
+- 27/04/2023 - Reverse Engineering C++ binaries
+- 20/04/2023 - Gynvael Coldwind - AI buzz a Cybersecurity
+- 13/04/2023 - Wykrywanie fałszywych opinii na google maps
 - 06/04/2023 - Praktyczne ataki na warstwy sieciowe?
+- 30/03/2023 - Jak dostać roota na Philips Hue i co można z tym zrobić?
+- 23/03/2023 - Jak nauczyliśmy się hakować karty miejskie?
+- 16/03/2023 - Prawie udane laby
+- 09/03/2023 - Jak działa internet?
 
 #### 22Z
 
+- 05/01/2023 - Intro to Docker
+- 08/12/2022 - Intro to Vim
+- 17/11/2022 - Practical web hacking with burp and nmap
 - 10/10/2022 - Intro to Linux - [(terminal)](https://docs.google.com/presentation/d/1lUJG3ZeYpzkbV2AIr3Tb9Pf5dpYz7MOxmmbHANYckP4/edit?usp=sharing)
 - 03/10/2022 - Intro to Linux - [(ssh)](https://docs.google.com/presentation/d/17pdNQ7bMUJpsCE73hYcIy1UXxaqCriwTTp2xZXhgFR8/edit?usp=sharing)
-- 17/11/2022 - Practical web hacking with burp and nmap
-- 08/12/2022 - Intro to Vim
-- 05/01/2023 - Intro to Docker
 
 #### 22L
 
@@ -37,10 +42,10 @@ layout: "layouts/post.njk"
 #### 21Z
 
 - 13/01/2021 - Automating clusters of servers with ansible
-- 04/11/2021 - Introduction to Science Club
-- 18/11/2021 - AW CTF writeups
-- 16/12/2021 - Having fun with Log4J - how to hack the internet
 - 21/12/2021 - Christmas hacking CTF + presentation form [billtech](https://billtech.pl)
+- 16/12/2021 - Having fun with Log4J - how to hack the internet
+- 18/11/2021 - AW CTF writeups
+- 04/11/2021 - Introduction to Science Club
 
 #### 21L
 
