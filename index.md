@@ -4,8 +4,8 @@ layout: "layouts/post.njk"
 ### Events
 
 - Thursdays 18:15 - everything else
-- on discord [link](https://discord.gg/DjVypPcV8c)
-  (if you can't access MS Teams send an email at `bonus@kncyber.pl`)
+- [Discord link](https://discord.gg/DjVypPcV8c)
+- [Facebook page](https://www.facebook.com/KoloCyber)
 
 ### Upcoming
 
