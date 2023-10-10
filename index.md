@@ -9,10 +9,11 @@ layout: "layouts/post.njk"
 
 ### Upcoming
 
-- 25/05/2023 - WhySoJava 0x2 - Serializacja i deserializacja w Java
+- 19/10/2023 - Asembler dla początkujących
 
 ### 23L
 
+- 25/05/2023 - WhySoJava 0x2 - Serializacja i deserializacja w Java
 - 18/05/2023 - WhySoJava 0x1 - Serializacja i deserializacja w Java
 - 11/05/2023 - Potężny shell czyli Windows Powershell w akcji
 - 27/04/2023 - Reverse Engineering C++ binaries
