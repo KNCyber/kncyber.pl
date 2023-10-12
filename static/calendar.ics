@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:-//SabreDAV//SabreDAV//EN
+X-WR-CALNAME:KNCyber
+X-APPLE-CALENDAR-COLOR:#795AAB
+REFRESH-INTERVAL;VALUE=DURATION:PT4H
+X-PUBLISHED-TTL:PT4H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20231012T145606Z
+DTSTAMP:20231012T145719Z
+LAST-MODIFIED:20231012T145719Z
+SEQUENCE:2
+UID:648a6ab0-1c13-4804-bfad-9be81a71774d
+DTSTART;TZID=Europe/Warsaw:20231019T181500
+DTEND;TZID=Europe/Warsaw:20231019T235500
+STATUS:CONFIRMED
+SUMMARY:Spotkanie: Asembler dla początkujących
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszaw
+ skiej
+DESCRIPTION:Czy kiedyś zastanawialiście się co się dzieje jak wasz prog
+ ram "crashuje"? Co oznacza komunikat "segmentation fault"? Jak okiełznać
+  bestię zwaną "asemblerem"? W serii wykładów Bonus pokaże od podstaw 
+ jak działa komputer oraz jakie ma to implikacje z punktu widzenia cyberbe
+ zpieczeństwa - czyli jak można zdobyć zdalne wykonanie kodu na czymś k
+ omputerze.\nSala 133
+END:VEVENT
+END:VCALENDAR
