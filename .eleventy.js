@@ -26,7 +26,7 @@ module.exports = function (eleventyConfig) {
 
         let result = "";
         if (!headers.includes(header)) {
-            result += (isFuture ? '###' : '####') + ` ${header}\n`;
+            result += (isFuture || headers.length === 0 ? '###' : '####') + ` ${header}\n`;
             headers.push(header);
         }
 
