@@ -42,4 +42,26 @@ DESCRIPTION:Czy kiedyś zastanawialiście się co się dzieje jak wasz prog
  zpieczeństwa - czyli jak można zdobyć zdalne wykonanie kodu na czymś k
  omputerze.\nSala 133
 END:VEVENT
+BEGIN:VEVENT
+CREATED:20231109T062706Z
+DTSTAMP:20231109T062838Z
+LAST-MODIFIED:20231109T062838Z
+SEQUENCE:2
+UID:e440cb05-c793-43de-a54d-7c87e22da5f9
+DTSTART;TZID=Europe/Warsaw:20231102T181500
+DTEND;TZID=Europe/Warsaw:20231102T235500
+STATUS:CONFIRMED
+SUMMARY:Spotkanie: Czy komputery kwantowe zniszczą prywatność?
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszaw
+ skiej
+DESCRIPTION:Na kolejnym spotkaniu koła weźmiemy pod lupę komputery kwant
+ owe. Jak działają i z czego się składają? Dlaczego powstały? Opowiem
+ y wam o rożnych architekturach\, algorytmach i protokołach oraz odpowiem
+ y na pytanie czy komputery kwantowe oznaczają koniec prywatności w sieci
+ \, a może ten moment już nadszedł?
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;RELATED=START:-PT2H
+END:VALARM
+END:VEVENT
 END:VCALENDAR
