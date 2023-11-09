@@ -58,7 +58,7 @@ DESCRIPTION:Na kolejnym spotkaniu koła weźmiemy pod lupę komputery kwant
  owe. Jak działają i z czego się składają? Dlaczego powstały? Opowiem
  y wam o rożnych architekturach\, algorytmach i protokołach oraz odpowiem
  y na pytanie czy komputery kwantowe oznaczają koniec prywatności w sieci
- \, a może ten moment już nadszedł?
+ \, a może ten moment już nadszedł?\nSala 133
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER;RELATED=START:-PT2H
