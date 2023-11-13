@@ -7,6 +7,7 @@ layout: "layouts/post.njk"
 - [Discord link](https://discord.gg/DjVypPcV8c)
 - [Facebook page](https://www.facebook.com/KoloCyber)
 
+{% event "2023-11-16" "Przejmujemy system monitoringu" %}
 {% event "2023-11-02" "Czy komputery kwantowe zniszczą prywatność?" %}
 {% event "2023-10-19" "Asembler dla początkujących" %}
 {% event "2023-05-25" "WhySoJava 0x2 - Serializacja i deserializacja w Java" %}
