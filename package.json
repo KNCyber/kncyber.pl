@@ -7,6 +7,7 @@
     "build": "eleventy --input=. --output=_site"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.1"
+    "@11ty/eleventy": "^1.0.1",
+    "luxon": "^3.4.3"
   }
 }
