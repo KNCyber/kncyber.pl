@@ -7,6 +7,7 @@ layout: "layouts/post.njk"
 - [Discord link](https://discord.gg/DjVypPcV8c)
 - [Facebook page](https://www.facebook.com/KoloCyber)
 
+{% event "2023-11-30" "Wstęp do exploitacji binarnej part 1" %}
 {% event "2023-11-16" "Przejmujemy system monitoringu" %}
 {% event "2023-11-02" "Czy komputery kwantowe zniszczą prywatność?" %}
 {% event "2023-10-19" "Asembler dla początkujących" %}
