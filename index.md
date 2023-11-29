@@ -6,7 +6,7 @@ layout: "layouts/post.njk"
 - Thursdays 18:15 - everything else
 - [Discord link](https://discord.gg/DjVypPcV8c)
 - [Facebook page](https://www.facebook.com/KoloCyber)
-- [ICS Calendar](/calendar.ics) (Import URL to your calendar)
+- [ICS Calendar](/calendar.ics) (Subscribe URL in your calendar)
 
 {% event "2023-11-30" "Wstęp do exploitacji binarnej part 1" %}
 {% event "2023-11-16" "Przejmujemy system monitoringu" %}

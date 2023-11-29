@@ -2,8 +2,10 @@ const {DateTime} = require("luxon");
 const ics = require("ics");
 const fs = require("fs");
 
-const DEFAULT_START_HOUR = 18;
-const DEFAULT_START_MINUTE = 15;
+const DEFAULT_START_TIME = {
+    hours: 18,
+    minutes: 15
+}
 
 const EVENT_COMMON = {
     url: 'https://kncyber.pl',
@@ -12,8 +14,8 @@ const EVENT_COMMON = {
             https://discord.com/invite/DjVypPcV8c`,
     location: 'Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej',
     duration: {hours: 3},
-    startInputType: 'local',
-    startOutputType: 'local'
+    startInputType: 'utc',
+    startOutputType: 'utc'
 }
 
 let headers = [];
@@ -29,9 +31,9 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addShortcode("event", function (date, description, extra = null) {
         const currentDate = DateTime.local().setZone("Europe/Warsaw");
-        const parsedDate = DateTime.fromFormat(date, "yyyy-MM-dd", {
+        let parsedDate = DateTime.fromFormat(date, "yyyy-MM-dd", {
             zone: 'Europe/Warsaw'
-        });
+        }).set(DEFAULT_START_TIME);
 
         const isWinter = parsedDate.month >= 10 || parsedDate.month < 2;
         const isFuture = currentDate < parsedDate;
@@ -48,14 +50,15 @@ module.exports = function (eleventyConfig) {
         }
 
         // Create ICS calendar event
+        const utcDate = parsedDate.toUTC();
         calendarEvents.push({
             title: description,
             start: [
-                parsedDate.year,
-                parsedDate.month,
-                parsedDate.day,
-                parsedDate.hour !== 0 ? parsedDate.hour : DEFAULT_START_HOUR,
-                parsedDate.hour !== 0 ? parsedDate.minute : DEFAULT_START_MINUTE
+                utcDate.year,
+                utcDate.month,
+                utcDate.day,
+                utcDate.hour,
+                utcDate.minute
             ],
             ...EVENT_COMMON
         });
