@@ -8,9 +8,7 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "luxon": "^3.4.3"
-  },
-  "dependencies": {
-    "ics": "^3.5.0"
+    "luxon": "^3.4.3",
+    "uuid": "^9.0.1"
   }
 }

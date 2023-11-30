@@ -1,5 +1,5 @@
 const {DateTime} = require("luxon");
-const ics = require("ics");
+const ics = require("./plugins/ics");
 const fs = require("fs");
 
 const DEFAULT_START_TIME = {
@@ -8,14 +8,12 @@ const DEFAULT_START_TIME = {
 }
 
 const EVENT_COMMON = {
-    url: 'https://kncyber.pl',
-    description: `Bieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku
-            https://www.facebook.com/KoloCyber
-            https://discord.com/invite/DjVypPcV8c`,
-    location: 'Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej',
-    duration: {hours: 3},
-    startInputType: 'utc',
-    startOutputType: 'utc'
+    description: `Spotkanie koła KNCyber
+
+Bieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku
+https://www.facebook.com/KoloCyber
+https://discord.com/invite/DjVypPcV8c`,
+    location: 'Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej'
 }
 
 let headers = [];
@@ -50,16 +48,10 @@ module.exports = function (eleventyConfig) {
         }
 
         // Create ICS calendar event
-        const utcDate = parsedDate.toUTC();
         calendarEvents.push({
             title: description,
-            start: [
-                utcDate.year,
-                utcDate.month,
-                utcDate.day,
-                utcDate.hour,
-                utcDate.minute
-            ],
+            start: parsedDate,
+            end: parsedDate.plus({hours: 2}),
             ...EVENT_COMMON
         });
 
@@ -68,13 +60,10 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.on('eleventy.after', async ({dir}) => {
-        const {error, value} = ics.createEvents(calendarEvents);
-        if (error) {
-            throw error;
-        }
+        const icsContent = ics.generateICS(calendarEvents);
 
         const writeStream = fs.createWriteStream(`./${dir.output}/calendar.ics`);
-        writeStream.write(value);
+        writeStream.write(icsContent);
         writeStream.end();
     });
 };
