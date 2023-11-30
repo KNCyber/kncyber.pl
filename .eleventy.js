@@ -29,7 +29,7 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addShortcode("event", function (date, description, extra = null) {
         const currentDate = DateTime.local().setZone("Europe/Warsaw");
-        let parsedDate = DateTime.fromFormat(date, "yyyy-MM-dd", {
+        const parsedDate = DateTime.fromFormat(date, "yyyy-MM-dd", {
             zone: 'Europe/Warsaw'
         }).set(DEFAULT_START_TIME);
 
