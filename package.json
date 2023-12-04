@@ -1,5 +1,5 @@
 {
-  "name": "KNCyber",
+  "name": "kncyber",
   "version": "1.0.0",
   "main": ".eleventy.js",
   "scripts": {
@@ -7,7 +7,8 @@
     "build": "eleventy --input=. --output=_site"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.1",
-    "luxon": "^3.4.3"
+    "@11ty/eleventy": "^2.0.1",
+    "luxon": "^3.4.3",
+    "uuid": "^9.0.1"
   }
 }
