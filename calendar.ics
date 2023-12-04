@@ -1,0 +1,530 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:dumbgenerator
+X-WR-CALNAME:KNCyber
+X-APPLE-CALENDAR-COLOR:#795AAB
+REFRESH-INTERVAL;VALUE=DURATION:PT4H
+X-PUBLISHED-TTL:PT4H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20231116T171500Z
+UID:5cc573f8-111c-4d81-8189-8d7e57bccb05
+DTSTART;TZID=Europe/Warsaw:20231130T181500
+DTEND;TZID=Europe/Warsaw:20231130T201500
+SUMMARY:Wstęp do exploitacji binarnej part 1
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231102T171500Z
+UID:6df2f8a8-c712-4314-88d1-48991ed8236e
+DTSTART;TZID=Europe/Warsaw:20231116T181500
+DTEND;TZID=Europe/Warsaw:20231116T201500
+SUMMARY:Przejmujemy system monitoringu
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231019T161500Z
+UID:2284c3a0-c890-4ced-b13b-0476cb31fc33
+DTSTART;TZID=Europe/Warsaw:20231102T181500
+DTEND;TZID=Europe/Warsaw:20231102T201500
+SUMMARY:Czy komputery kwantowe zniszczą prywatność?
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20231005T161500Z
+UID:ece0292b-a4b0-4840-b84c-08b46b9d4bb9
+DTSTART;TZID=Europe/Warsaw:20231019T181500
+DTEND;TZID=Europe/Warsaw:20231019T201500
+SUMMARY:Asembler dla początkujących
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230511T161500Z
+UID:af9196a3-343e-4910-b1dd-57089d16c53b
+DTSTART;TZID=Europe/Warsaw:20230525T181500
+DTEND;TZID=Europe/Warsaw:20230525T201500
+SUMMARY:WhySoJava 0x2 - Serializacja i deserializacja w Java
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230504T161500Z
+UID:10b40664-172a-4aad-a7fa-c43f2e151aab
+DTSTART;TZID=Europe/Warsaw:20230518T181500
+DTEND;TZID=Europe/Warsaw:20230518T201500
+SUMMARY:WhySoJava 0x1 - Serializacja i deserializacja w Java
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230427T161500Z
+UID:782fe731-b5a6-47dd-8265-b922a5a27f0b
+DTSTART;TZID=Europe/Warsaw:20230511T181500
+DTEND;TZID=Europe/Warsaw:20230511T201500
+SUMMARY:Potężny shell czyli Windows Powershell w akcji
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230413T161500Z
+UID:df8f677d-227b-42c0-8d5a-10a3f5e9e0e9
+DTSTART;TZID=Europe/Warsaw:20230427T181500
+DTEND;TZID=Europe/Warsaw:20230427T201500
+SUMMARY:Reverse Engineering C++ binaries
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230406T161500Z
+UID:143c987f-03da-4cfc-a493-3ccbe3f6effe
+DTSTART;TZID=Europe/Warsaw:20230420T181500
+DTEND;TZID=Europe/Warsaw:20230420T201500
+SUMMARY:Gynvael Coldwind - AI buzz a Cybersecurity
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230330T161500Z
+UID:c32242ef-26d8-4353-9dff-aeaabcd695bc
+DTSTART;TZID=Europe/Warsaw:20230413T181500
+DTEND;TZID=Europe/Warsaw:20230413T201500
+SUMMARY:Wykrywanie fałszywych opinii na google maps
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230323T171500Z
+UID:c1f06b91-5f21-4087-a30a-957ff1df26b0
+DTSTART;TZID=Europe/Warsaw:20230406T181500
+DTEND;TZID=Europe/Warsaw:20230406T201500
+SUMMARY:Praktyczne ataki na warstwy sieciowe?
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230316T171500Z
+UID:02e15dce-6038-4bb2-b809-b66c23b6de8c
+DTSTART;TZID=Europe/Warsaw:20230330T181500
+DTEND;TZID=Europe/Warsaw:20230330T201500
+SUMMARY:Jak dostać roota na Philips Hue i co można z tym zrobić?
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230309T171500Z
+UID:4aec9683-10c3-42e2-959c-897d2c06ba7e
+DTSTART;TZID=Europe/Warsaw:20230323T181500
+DTEND;TZID=Europe/Warsaw:20230323T201500
+SUMMARY:Jak nauczyliśmy się hakować karty miejskie?
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230302T171500Z
+UID:82ac7837-6409-430a-b424-fb55c0873a66
+DTSTART;TZID=Europe/Warsaw:20230316T181500
+DTEND;TZID=Europe/Warsaw:20230316T201500
+SUMMARY:Prawie udane laby
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230223T171500Z
+UID:c1993f37-ad1b-461a-aa13-89fb68c79135
+DTSTART;TZID=Europe/Warsaw:20230309T181500
+DTEND;TZID=Europe/Warsaw:20230309T201500
+SUMMARY:Jak działa internet?
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20221222T171500Z
+UID:af6c6e5d-e4a7-4cd1-88ef-a16cb0d08f63
+DTSTART;TZID=Europe/Warsaw:20230105T181500
+DTEND;TZID=Europe/Warsaw:20230105T201500
+SUMMARY:Intro to Docker
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20221124T171500Z
+UID:07153efb-f143-4759-8609-7747e5b2fa10
+DTSTART;TZID=Europe/Warsaw:20221208T181500
+DTEND;TZID=Europe/Warsaw:20221208T201500
+SUMMARY:Intro to Vim
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20221103T171500Z
+UID:47af0e5f-4a85-4d05-b8e4-25cbda066d73
+DTSTART;TZID=Europe/Warsaw:20221117T181500
+DTEND;TZID=Europe/Warsaw:20221117T201500
+SUMMARY:Practical web hacking with burp and nmap
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20220926T161500Z
+UID:3bedfd10-6746-464c-abc2-ae61c7f63360
+DTSTART;TZID=Europe/Warsaw:20221010T181500
+DTEND;TZID=Europe/Warsaw:20221010T201500
+SUMMARY:Intro to Linux
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20220919T161500Z
+UID:f0b8b428-50e4-4f9d-94e6-cfee6bef25ed
+DTSTART;TZID=Europe/Warsaw:20221003T181500
+DTEND;TZID=Europe/Warsaw:20221003T201500
+SUMMARY:Intro to Linux
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20220524T161500Z
+UID:ed739744-9c93-4d57-aac5-713958879458
+DTSTART;TZID=Europe/Warsaw:20220607T181500
+DTEND;TZID=Europe/Warsaw:20220607T201500
+SUMMARY:Cloud Security Academy: Reference Security Architecture in Google Cloud
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20220512T161500Z
+UID:bc2969a0-2644-4ec4-b560-65cc9a5046ef
+DTSTART;TZID=Europe/Warsaw:20220526T181500
+DTEND;TZID=Europe/Warsaw:20220526T201500
+SUMMARY:Warsztat: Bezpieczne hostowanie aplikacji na dockerze
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20220428T161500Z
+UID:4151f103-65e3-4142-90a1-3f1c40a52ba6
+DTSTART;TZID=Europe/Warsaw:20220512T181500
+DTEND;TZID=Europe/Warsaw:20220512T201500
+SUMMARY:IRL hacking with hardware 2
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20220414T161500Z
+UID:8b3cfb8a-7d02-46bd-a9b9-97855aa8e780
+DTSTART;TZID=Europe/Warsaw:20220428T181500
+DTEND;TZID=Europe/Warsaw:20220428T201500
+SUMMARY:IRL hacking with hardware
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20211230T171500Z
+UID:be2fc230-8a36-47b4-ba90-6e43d901af8d
+DTSTART;TZID=Europe/Warsaw:20220113T181500
+DTEND;TZID=Europe/Warsaw:20220113T201500
+SUMMARY:Automating clusters of servers with ansible
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20211207T171500Z
+UID:f18d8818-535d-429c-ba18-62f75bca48c9
+DTSTART;TZID=Europe/Warsaw:20211221T181500
+DTEND;TZID=Europe/Warsaw:20211221T201500
+SUMMARY:Christmas hacking CTF + presentation form
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20211202T171500Z
+UID:524544da-1f2e-4ead-9eda-62daf6f77c21
+DTSTART;TZID=Europe/Warsaw:20211216T181500
+DTEND;TZID=Europe/Warsaw:20211216T201500
+SUMMARY:Having fun with Log4J - how to hack the internet
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20211104T171500Z
+UID:e6659458-0e60-4d3e-a518-ade2e5f73281
+DTSTART;TZID=Europe/Warsaw:20211118T181500
+DTEND;TZID=Europe/Warsaw:20211118T201500
+SUMMARY:AW CTF writeups
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20211021T161500Z
+UID:e153dbaa-d876-4c7d-9090-da7780d0d350
+DTSTART;TZID=Europe/Warsaw:20211104T181500
+DTEND;TZID=Europe/Warsaw:20211104T201500
+SUMMARY:Introduction to Science Club
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210504T161500Z
+UID:a6f364a7-fe4a-4857-a838-1d7450b5ed23
+DTSTART;TZID=Europe/Warsaw:20210518T181500
+DTEND;TZID=Europe/Warsaw:20210518T201500
+SUMMARY:How (not) to organize a CTF?
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210503T161500Z
+UID:ba981039-9bba-48d3-8611-ab2f0907d1cb
+DTSTART;TZID=Europe/Warsaw:20210517T181500
+DTEND;TZID=Europe/Warsaw:20210517T201500
+SUMMARY:Web Exploitation (SSRF) - workshop 4
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210427T161500Z
+UID:1a98667a-197a-4fcf-96dc-b9f1e489aea1
+DTSTART;TZID=Europe/Warsaw:20210511T181500
+DTEND;TZID=Europe/Warsaw:20210511T201500
+SUMMARY:Surprise encryption - story of a certain attack
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210412T161500Z
+UID:1da18f88-0ad7-4a4d-9803-610e27674bcb
+DTSTART;TZID=Europe/Warsaw:20210426T181500
+DTEND;TZID=Europe/Warsaw:20210426T201500
+SUMMARY:Web Exploitation (SQL injections) - workshop 3
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210406T161500Z
+UID:b3c669c2-f2b6-4188-9b3d-f065b9417d10
+DTSTART;TZID=Europe/Warsaw:20210420T181500
+DTEND;TZID=Europe/Warsaw:20210420T201500
+SUMMARY:Docker - introduction to containerization
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210329T161500Z
+UID:137944a0-f3ab-4679-9999-b31b47b8dfef
+DTSTART;TZID=Europe/Warsaw:20210412T181500
+DTEND;TZID=Europe/Warsaw:20210412T201500
+SUMMARY:Basic use of Python for request automation
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210323T171500Z
+UID:cf658540-eb30-4fec-8007-041b7f4ba54b
+DTSTART;TZID=Europe/Warsaw:20210406T181500
+DTEND;TZID=Europe/Warsaw:20210406T201500
+SUMMARY:A few things about dynamic binary instrumentation
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210322T171500Z
+UID:e8f98dee-2de4-404e-be92-751991030adc
+DTSTART;TZID=Europe/Warsaw:20210405T181500
+DTEND;TZID=Europe/Warsaw:20210405T201500
+SUMMARY:Web Exploitation (SQL injections) - workshop 2
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210316T171500Z
+UID:b187238c-3f1d-4491-aa25-1b98739e01f6
+DTSTART;TZID=Europe/Warsaw:20210330T181500
+DTEND;TZID=Europe/Warsaw:20210330T201500
+SUMMARY:How to decrypt ransomware, or die trying
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210315T171500Z
+UID:0b739e6f-b491-4946-8850-c1158b8f250b
+DTSTART;TZID=Europe/Warsaw:20210329T181500
+DTEND;TZID=Europe/Warsaw:20210329T201500
+SUMMARY:Web Exploitation (SQL injections) - workshop 1
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210309T171500Z
+UID:fd98fa1f-64d5-4c48-97b9-2793123841e7
+DTSTART;TZID=Europe/Warsaw:20210323T181500
+DTEND;TZID=Europe/Warsaw:20210323T201500
+SUMMARY:Introduction to Web Exploitation
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210223T171500Z
+UID:35f59c0b-e6e0-4a81-aafd-81439195c012
+DTSTART;TZID=Europe/Warsaw:20210309T181500
+DTEND;TZID=Europe/Warsaw:20210309T201500
+SUMMARY:Introduction to Science Club
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201203T171500Z
+UID:94b7566d-1e3d-41b1-9ab9-2b37cf0eb009
+DTSTART;TZID=Europe/Warsaw:20201217T181500
+DTEND;TZID=Europe/Warsaw:20201217T201500
+SUMMARY:Jak mogłem sterować polskim przemysłem?
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201130T171500Z
+UID:48b8ba36-908d-4647-8fb9-1063ea0bc14c
+DTSTART;TZID=Europe/Warsaw:20201214T181500
+DTEND;TZID=Europe/Warsaw:20201214T201500
+SUMMARY:Web Exploitation - workshop 1
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201116T171500Z
+UID:84258ba0-1bcf-4038-92d4-339387b42932
+DTSTART;TZID=Europe/Warsaw:20201130T181500
+DTEND;TZID=Europe/Warsaw:20201130T201500
+SUMMARY:Binary Exploitation - workshop 3
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201112T171500Z
+UID:0d2e7432-64a1-4219-b9a3-64bee9132bb8
+DTSTART;TZID=Europe/Warsaw:20201126T181500
+DTEND;TZID=Europe/Warsaw:20201126T201500
+SUMMARY:Summary of project ideas
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201109T171500Z
+UID:9f8eab14-b420-4e5f-bcbb-7eb2768b00cb
+DTSTART;TZID=Europe/Warsaw:20201123T181500
+DTEND;TZID=Europe/Warsaw:20201123T201500
+SUMMARY:Binary Exploitation - workshop 2
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201105T171500Z
+UID:34994b1a-960e-4942-afd2-47739a454877
+DTSTART;TZID=Europe/Warsaw:20201119T181500
+DTEND;TZID=Europe/Warsaw:20201119T201500
+SUMMARY:A few stories about virtual machine introspection and malware monitoring
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201102T171500Z
+UID:8d423650-9991-4c99-9fbc-6957d318a8ca
+DTSTART;TZID=Europe/Warsaw:20201116T181500
+DTEND;TZID=Europe/Warsaw:20201116T201500
+SUMMARY:Binary Exploitation - workshop 1
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201029T171500Z
+UID:ca69347f-236d-4c56-803b-ba747f1ea40c
+DTSTART;TZID=Europe/Warsaw:20201112T181500
+DTEND;TZID=Europe/Warsaw:20201112T201500
+SUMMARY:Open Arena (member presentations)
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201026T171500Z
+UID:0773863f-7b82-4cab-b9f2-6c16f41859a7
+DTSTART;TZID=Europe/Warsaw:20201109T181500
+DTEND;TZID=Europe/Warsaw:20201109T201500
+SUMMARY:Reverse Engineering - workshop 2
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201022T161500Z
+UID:a3299750-aa44-4d8c-afca-682be5f11690
+DTSTART;TZID=Europe/Warsaw:20201105T181500
+DTEND;TZID=Europe/Warsaw:20201105T201500
+SUMMARY:Wide view on Cybersecurity landscape - challenges and solutions
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201019T161500Z
+UID:972e6107-7083-4188-af54-06f242d2f8bc
+DTSTART;TZID=Europe/Warsaw:20201102T181500
+DTEND;TZID=Europe/Warsaw:20201102T201500
+SUMMARY:Introduction to x86 assembly
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201015T161500Z
+UID:adb26853-f029-47d2-8410-2028a5a117ea
+DTSTART;TZID=Europe/Warsaw:20201029T181500
+DTEND;TZID=Europe/Warsaw:20201029T201500
+SUMMARY:What do we know for sure?
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201008T161500Z
+UID:cd1c4c25-4e6a-4bb2-921f-9bb9d2819f99
+DTSTART;TZID=Europe/Warsaw:20201022T181500
+DTEND;TZID=Europe/Warsaw:20201022T201500
+SUMMARY:Introduction to Python
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201001T161500Z
+UID:600486ef-92a7-4e18-8706-a77c574e7741
+DTSTART;TZID=Europe/Warsaw:20201015T181500
+DTEND;TZID=Europe/Warsaw:20201015T201500
+SUMMARY:Reverse Engineering - workshop 1
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20200924T161500Z
+UID:6245f1b1-004f-4df1-8ab1-bc3c47db5dfb
+DTSTART;TZID=Europe/Warsaw:20201008T181500
+DTEND;TZID=Europe/Warsaw:20201008T201500
+SUMMARY:Introduction to Science Club
+LOCATION:Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej
+DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na serwerze Discord koła lub stronie na Facebooku\nhttps://www.facebook.com/KoloCyber\nhttps://discord.com/invite/DjVypPcV8c
+END:VEVENT
+END:VCALENDAR
