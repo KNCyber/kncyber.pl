@@ -8,6 +8,7 @@ layout: "layouts/post.njk"
 - [Facebook page](https://www.facebook.com/KoloCyber)
 - [ICS Calendar](/calendar.ics) (Subscribe URL in your calendar)
 
+{% event "2024-01-11" "Wprowadzenie do testowania aplikacji mobilnych" %}
 {% event "2023-12-14" "Krótka historia o pewnym CTFie" %}
 {% event "2023-11-30" "Wstęp do exploitacji binarnej part 1" %}
 {% event "2023-11-16" "Przejmujemy system monitoringu" %}
