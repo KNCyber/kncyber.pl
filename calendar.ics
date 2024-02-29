@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 DTSTAMP:20231228T171500Z
-UID:4b5dcb7f-d321-4af4-9c61-12f57d965bb4
+UID:065c1c05-a945-4889-aba3-912a5f3d2151
 DTSTART;TZID=Europe/Warsaw:20240111T181500
 DTEND;TZID=Europe/Warsaw:20240111T201500
 SUMMARY:Wprowadzenie do testowania aplikacji mobilnych
@@ -34,7 +34,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20231130T171500Z
-UID:6dbfe158-9a55-4dbb-8030-aacee30389d9
+UID:82c2e2df-66de-4593-85dd-36641f9e5f94
 DTSTART;TZID=Europe/Warsaw:20231214T181500
 DTEND;TZID=Europe/Warsaw:20231214T201500
 SUMMARY:Krótka historia o pewnym CTFie
@@ -43,7 +43,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20231116T171500Z
-UID:fa3344b4-4760-4178-bec2-06ae77537e7f
+UID:0f76df41-bb69-442a-a343-cdd64b4f852b
 DTSTART;TZID=Europe/Warsaw:20231130T181500
 DTEND;TZID=Europe/Warsaw:20231130T201500
 SUMMARY:Wstęp do exploitacji binarnej part 1
@@ -52,7 +52,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20231102T171500Z
-UID:d38756ad-51ac-472c-85a3-0818dfaaaef0
+UID:e3a78ab4-72d3-4bf7-b7c0-a63c4a869cd2
 DTSTART;TZID=Europe/Warsaw:20231116T181500
 DTEND;TZID=Europe/Warsaw:20231116T201500
 SUMMARY:Przejmujemy system monitoringu
@@ -61,7 +61,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20231019T161500Z
-UID:fbc3cf20-947a-43b0-91de-a57fcb348dc3
+UID:9009a80b-2b5d-418a-98e7-f685d49aa279
 DTSTART;TZID=Europe/Warsaw:20231102T181500
 DTEND;TZID=Europe/Warsaw:20231102T201500
 SUMMARY:Czy komputery kwantowe zniszczą prywatność?
@@ -70,7 +70,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20231005T161500Z
-UID:87d53f88-46e3-4f63-af51-3fd6c1615cfb
+UID:2bd35301-c75b-4310-8c9c-f23c69804b2f
 DTSTART;TZID=Europe/Warsaw:20231019T181500
 DTEND;TZID=Europe/Warsaw:20231019T201500
 SUMMARY:Asembler dla początkujących
@@ -79,7 +79,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20230511T161500Z
-UID:38c564af-40dc-4a30-ac8f-1561ffc8ae27
+UID:0c9f837d-5204-4e14-94f9-950f0c6795c0
 DTSTART;TZID=Europe/Warsaw:20230525T181500
 DTEND;TZID=Europe/Warsaw:20230525T201500
 SUMMARY:WhySoJava 0x2 - Serializacja i deserializacja w Java
@@ -88,7 +88,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20230504T161500Z
-UID:9b5765ff-de35-4ab8-86a6-9593025b694b
+UID:e5762a83-e2b5-461a-8232-3d2c546b9f69
 DTSTART;TZID=Europe/Warsaw:20230518T181500
 DTEND;TZID=Europe/Warsaw:20230518T201500
 SUMMARY:WhySoJava 0x1 - Serializacja i deserializacja w Java
@@ -97,7 +97,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20230427T161500Z
-UID:ee63bca4-942b-4f91-bd3d-e90289b48d53
+UID:8436d6fa-68f9-4df2-96d8-8bfc8809fd33
 DTSTART;TZID=Europe/Warsaw:20230511T181500
 DTEND;TZID=Europe/Warsaw:20230511T201500
 SUMMARY:Potężny shell czyli Windows Powershell w akcji
@@ -106,7 +106,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20230413T161500Z
-UID:68216c7f-8718-4bd1-ac07-178778bcff96
+UID:6fbbab58-b2f7-4ce9-98df-571363049889
 DTSTART;TZID=Europe/Warsaw:20230427T181500
 DTEND;TZID=Europe/Warsaw:20230427T201500
 SUMMARY:Reverse Engineering C++ binaries
@@ -115,7 +115,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20230406T161500Z
-UID:21ca1506-1521-4e8d-b653-c73fb30b24e6
+UID:3a159735-4454-45fd-8c7d-969ea15c130a
 DTSTART;TZID=Europe/Warsaw:20230420T181500
 DTEND;TZID=Europe/Warsaw:20230420T201500
 SUMMARY:Gynvael Coldwind - AI buzz a Cybersecurity
@@ -124,7 +124,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20230330T161500Z
-UID:d89aa554-e0d5-42bc-8788-25eca9e30eae
+UID:7caa4dc2-90f5-464e-b9be-946ff53fb8b0
 DTSTART;TZID=Europe/Warsaw:20230413T181500
 DTEND;TZID=Europe/Warsaw:20230413T201500
 SUMMARY:Wykrywanie fałszywych opinii na google maps
@@ -133,7 +133,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20230323T171500Z
-UID:8e265285-af28-483e-b21c-edae1cb2f126
+UID:0137b5e8-9bee-4f58-8393-d04a4d93685a
 DTSTART;TZID=Europe/Warsaw:20230406T181500
 DTEND;TZID=Europe/Warsaw:20230406T201500
 SUMMARY:Praktyczne ataki na warstwy sieciowe?
@@ -142,7 +142,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20230316T171500Z
-UID:f6228403-a80a-4023-941b-0a3d5f4fa343
+UID:7d4deb1f-a347-491b-8122-25af30fe0f97
 DTSTART;TZID=Europe/Warsaw:20230330T181500
 DTEND;TZID=Europe/Warsaw:20230330T201500
 SUMMARY:Jak dostać roota na Philips Hue i co można z tym zrobić?
@@ -151,7 +151,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20230309T171500Z
-UID:6b603ec6-b435-4a5e-9bd8-a7f0111395ce
+UID:8a867ecf-5c88-4d72-979a-891321ef6397
 DTSTART;TZID=Europe/Warsaw:20230323T181500
 DTEND;TZID=Europe/Warsaw:20230323T201500
 SUMMARY:Jak nauczyliśmy się hakować karty miejskie?
@@ -160,7 +160,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20230302T171500Z
-UID:dde3c1f0-eb10-47ba-8cee-1fbb56c4c5e2
+UID:f703ba83-21c9-4c0f-9544-de47434b0f4c
 DTSTART;TZID=Europe/Warsaw:20230316T181500
 DTEND;TZID=Europe/Warsaw:20230316T201500
 SUMMARY:Prawie udane laby
@@ -169,7 +169,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20230223T171500Z
-UID:a55c33ff-4ed4-42f9-b87f-fcf47c60d5dd
+UID:68ec644f-5244-4e1b-8884-3acd6596b78d
 DTSTART;TZID=Europe/Warsaw:20230309T181500
 DTEND;TZID=Europe/Warsaw:20230309T201500
 SUMMARY:Jak działa internet?
@@ -178,7 +178,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20221222T171500Z
-UID:384ceb5f-064c-4041-a321-7e7b12963a57
+UID:69aec5d1-b359-4d7a-8525-e420a22781ee
 DTSTART;TZID=Europe/Warsaw:20230105T181500
 DTEND;TZID=Europe/Warsaw:20230105T201500
 SUMMARY:Intro to Docker
@@ -187,7 +187,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20221124T171500Z
-UID:7c2a6132-a6fd-4b61-b586-16ba16a6fe6d
+UID:3506b146-ab28-4815-a7c6-c91d671a313b
 DTSTART;TZID=Europe/Warsaw:20221208T181500
 DTEND;TZID=Europe/Warsaw:20221208T201500
 SUMMARY:Intro to Vim
@@ -196,7 +196,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20221103T171500Z
-UID:90215e14-e0c3-4c53-aeed-3f1b098d8820
+UID:28807188-18a8-4fa7-92d6-c5d89618e249
 DTSTART;TZID=Europe/Warsaw:20221117T181500
 DTEND;TZID=Europe/Warsaw:20221117T201500
 SUMMARY:Practical web hacking with burp and nmap
@@ -205,7 +205,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20220926T161500Z
-UID:cd20b95f-2d89-4382-807c-f58437fbf5de
+UID:706de750-4cd0-47b4-8c89-ff9b3a1d034b
 DTSTART;TZID=Europe/Warsaw:20221010T181500
 DTEND;TZID=Europe/Warsaw:20221010T201500
 SUMMARY:Intro to Linux
@@ -214,7 +214,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20220919T161500Z
-UID:277a178a-5b91-4671-8b7c-a56fe3d600e1
+UID:59b08e4b-2b18-42c2-b056-6a147b8a44df
 DTSTART;TZID=Europe/Warsaw:20221003T181500
 DTEND;TZID=Europe/Warsaw:20221003T201500
 SUMMARY:Intro to Linux
@@ -223,7 +223,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20220524T161500Z
-UID:1cd73a36-d999-4d59-88f1-bd6f47d368bd
+UID:dfea3569-cc8d-425a-906e-6644b31144ea
 DTSTART;TZID=Europe/Warsaw:20220607T181500
 DTEND;TZID=Europe/Warsaw:20220607T201500
 SUMMARY:Cloud Security Academy: Reference Security Architecture in Google Cloud
@@ -232,7 +232,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20220512T161500Z
-UID:39889835-fe20-4596-b8f2-190137eaa50b
+UID:eb768e49-3732-41cd-8d6f-b8302bc98638
 DTSTART;TZID=Europe/Warsaw:20220526T181500
 DTEND;TZID=Europe/Warsaw:20220526T201500
 SUMMARY:Warsztat: Bezpieczne hostowanie aplikacji na dockerze
@@ -241,7 +241,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20220428T161500Z
-UID:2ba1860c-75b6-43cf-ad34-893d23f799a5
+UID:4f4da37a-a2a9-4a77-af4a-97c1b620a0db
 DTSTART;TZID=Europe/Warsaw:20220512T181500
 DTEND;TZID=Europe/Warsaw:20220512T201500
 SUMMARY:IRL hacking with hardware 2
@@ -250,7 +250,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20220414T161500Z
-UID:f4aa0c97-7040-49f5-9cf0-cb0b1f7cd515
+UID:5fcd9920-97c5-4ab8-ab1f-d38f3f8a831f
 DTSTART;TZID=Europe/Warsaw:20220428T181500
 DTEND;TZID=Europe/Warsaw:20220428T201500
 SUMMARY:IRL hacking with hardware
@@ -259,7 +259,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20211230T171500Z
-UID:61f2c927-d274-4fc3-9d6d-6db85cde3e43
+UID:5fef27f6-5314-4bb5-9878-c758eb53c7f7
 DTSTART;TZID=Europe/Warsaw:20220113T181500
 DTEND;TZID=Europe/Warsaw:20220113T201500
 SUMMARY:Automating clusters of servers with ansible
@@ -268,7 +268,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20211207T171500Z
-UID:769491e7-aac3-470c-8947-f77d916bb194
+UID:0fa487f1-7f93-49af-92d6-426f5d186c9d
 DTSTART;TZID=Europe/Warsaw:20211221T181500
 DTEND;TZID=Europe/Warsaw:20211221T201500
 SUMMARY:Christmas hacking CTF + presentation form
@@ -277,7 +277,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20211202T171500Z
-UID:e26c1f97-444e-4342-8378-89c09cc41bfa
+UID:922abae7-e892-4c88-b85e-95e22223815e
 DTSTART;TZID=Europe/Warsaw:20211216T181500
 DTEND;TZID=Europe/Warsaw:20211216T201500
 SUMMARY:Having fun with Log4J - how to hack the internet
@@ -286,7 +286,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20211104T171500Z
-UID:1626e257-e50e-4a50-9129-384db60e1dd9
+UID:766aa569-7a0b-42e1-931e-27fd8daf3a53
 DTSTART;TZID=Europe/Warsaw:20211118T181500
 DTEND;TZID=Europe/Warsaw:20211118T201500
 SUMMARY:AW CTF writeups
@@ -295,7 +295,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20211021T161500Z
-UID:68c895e8-f18b-4465-8ccf-3b5f5a3499b0
+UID:9289cb20-fc17-4a0d-9df2-e50ddf779221
 DTSTART;TZID=Europe/Warsaw:20211104T181500
 DTEND;TZID=Europe/Warsaw:20211104T201500
 SUMMARY:Introduction to Science Club
@@ -304,7 +304,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210504T161500Z
-UID:11a82f3e-c4d6-4cfe-90da-f37c8ee2ba9e
+UID:cc70cd95-bb98-4c29-9fdd-42d7cdd1b95b
 DTSTART;TZID=Europe/Warsaw:20210518T181500
 DTEND;TZID=Europe/Warsaw:20210518T201500
 SUMMARY:How (not) to organize a CTF?
@@ -313,7 +313,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210503T161500Z
-UID:bdc7621b-f2ea-4fa3-998b-e6d8f32fa621
+UID:86bb0a6d-b08f-4bc7-865c-f2c0f524c09a
 DTSTART;TZID=Europe/Warsaw:20210517T181500
 DTEND;TZID=Europe/Warsaw:20210517T201500
 SUMMARY:Web Exploitation (SSRF) - workshop 4
@@ -322,7 +322,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210427T161500Z
-UID:55d7dcf9-fa55-4f22-9ec7-4ce2ac1d5635
+UID:32e006e8-518b-4788-8ab2-5471eed2e2d2
 DTSTART;TZID=Europe/Warsaw:20210511T181500
 DTEND;TZID=Europe/Warsaw:20210511T201500
 SUMMARY:Surprise encryption - story of a certain attack
@@ -331,7 +331,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210412T161500Z
-UID:a5732e58-7b03-4ed5-9642-d17fd6b67817
+UID:945845b2-31a0-4e4c-8146-af22c7afdb3a
 DTSTART;TZID=Europe/Warsaw:20210426T181500
 DTEND;TZID=Europe/Warsaw:20210426T201500
 SUMMARY:Web Exploitation (SQL injections) - workshop 3
@@ -340,7 +340,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210406T161500Z
-UID:71cc211e-a898-4480-ae6e-2b7ddb15617f
+UID:2d21d85f-39a2-45c9-93c9-0a5ef807252b
 DTSTART;TZID=Europe/Warsaw:20210420T181500
 DTEND;TZID=Europe/Warsaw:20210420T201500
 SUMMARY:Docker - introduction to containerization
@@ -349,7 +349,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210329T161500Z
-UID:8857d425-ca9e-407b-adfa-d2bc51df57af
+UID:341d4579-50b1-41e3-99c6-de828b9803ae
 DTSTART;TZID=Europe/Warsaw:20210412T181500
 DTEND;TZID=Europe/Warsaw:20210412T201500
 SUMMARY:Basic use of Python for request automation
@@ -358,7 +358,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210323T171500Z
-UID:7f84bbb2-5d7b-46c2-a0fc-fac9dbbd27e9
+UID:8536a087-fbd7-42c5-ae7a-77872c722685
 DTSTART;TZID=Europe/Warsaw:20210406T181500
 DTEND;TZID=Europe/Warsaw:20210406T201500
 SUMMARY:A few things about dynamic binary instrumentation
@@ -367,7 +367,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210322T171500Z
-UID:21fd20d2-2f87-4a66-a1d6-1dfbc48bff4f
+UID:42912c2a-9bdb-41c8-898a-3af3328cfee7
 DTSTART;TZID=Europe/Warsaw:20210405T181500
 DTEND;TZID=Europe/Warsaw:20210405T201500
 SUMMARY:Web Exploitation (SQL injections) - workshop 2
@@ -376,7 +376,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210316T171500Z
-UID:cbfd4733-de46-4ee9-9159-39b0c12c591b
+UID:f5e18fe2-1e95-4f24-84bf-398d65033142
 DTSTART;TZID=Europe/Warsaw:20210330T181500
 DTEND;TZID=Europe/Warsaw:20210330T201500
 SUMMARY:How to decrypt ransomware, or die trying
@@ -385,7 +385,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210315T171500Z
-UID:94d0d1c1-b288-497a-b7c8-4ea829ff90d5
+UID:cafa99a3-ad8e-429c-ac9a-15bc23ddae28
 DTSTART;TZID=Europe/Warsaw:20210329T181500
 DTEND;TZID=Europe/Warsaw:20210329T201500
 SUMMARY:Web Exploitation (SQL injections) - workshop 1
@@ -394,7 +394,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210309T171500Z
-UID:36c0d7bb-ec64-46f6-9a4a-53ab12230564
+UID:a11432ab-4395-4b24-8f2c-db493ad5a381
 DTSTART;TZID=Europe/Warsaw:20210323T181500
 DTEND;TZID=Europe/Warsaw:20210323T201500
 SUMMARY:Introduction to Web Exploitation
@@ -403,7 +403,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20210223T171500Z
-UID:84659535-4798-45b4-baca-cb9ea968f4d4
+UID:9c711bc3-372d-4d8c-8041-b1595a56f439
 DTSTART;TZID=Europe/Warsaw:20210309T181500
 DTEND;TZID=Europe/Warsaw:20210309T201500
 SUMMARY:Introduction to Science Club
@@ -412,7 +412,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20201203T171500Z
-UID:164bb79c-9bc5-4197-8eeb-f457ab9d8e27
+UID:539c1260-8511-4091-b7d6-14c28bef04ea
 DTSTART;TZID=Europe/Warsaw:20201217T181500
 DTEND;TZID=Europe/Warsaw:20201217T201500
 SUMMARY:Jak mogłem sterować polskim przemysłem?
@@ -421,7 +421,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20201130T171500Z
-UID:616939ef-054b-4170-8333-1c32e88fe042
+UID:a5479ef7-7f0b-4b3e-ace0-a03842dca94d
 DTSTART;TZID=Europe/Warsaw:20201214T181500
 DTEND;TZID=Europe/Warsaw:20201214T201500
 SUMMARY:Web Exploitation - workshop 1
@@ -430,7 +430,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20201116T171500Z
-UID:4aea6b29-3af8-4e17-88f1-30176344bbd1
+UID:68c26c22-5edf-4c0a-9095-c04b0dd5ae46
 DTSTART;TZID=Europe/Warsaw:20201130T181500
 DTEND;TZID=Europe/Warsaw:20201130T201500
 SUMMARY:Binary Exploitation - workshop 3
@@ -439,7 +439,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20201112T171500Z
-UID:b8dc6837-31c4-4f06-82df-63ba0058f064
+UID:13352b48-408b-4d6d-9a93-60989aad39b3
 DTSTART;TZID=Europe/Warsaw:20201126T181500
 DTEND;TZID=Europe/Warsaw:20201126T201500
 SUMMARY:Summary of project ideas
@@ -448,7 +448,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20201109T171500Z
-UID:49f39d72-7c4b-4180-a8af-fbd20a00e04e
+UID:9490277b-2b2d-4e33-8afd-43f6e850e83c
 DTSTART;TZID=Europe/Warsaw:20201123T181500
 DTEND;TZID=Europe/Warsaw:20201123T201500
 SUMMARY:Binary Exploitation - workshop 2
@@ -457,7 +457,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20201105T171500Z
-UID:54459991-b178-43e2-b2a1-730251428bfe
+UID:e60b81bf-b362-4450-9966-b09a3f0cf50d
 DTSTART;TZID=Europe/Warsaw:20201119T181500
 DTEND;TZID=Europe/Warsaw:20201119T201500
 SUMMARY:A few stories about virtual machine introspection and malware monitoring
@@ -466,7 +466,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20201102T171500Z
-UID:9d5a24f6-ebef-4dae-aef0-d3a83d7bf5dc
+UID:b0754a59-4f70-405e-a036-a7d88366dacb
 DTSTART;TZID=Europe/Warsaw:20201116T181500
 DTEND;TZID=Europe/Warsaw:20201116T201500
 SUMMARY:Binary Exploitation - workshop 1
@@ -475,7 +475,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20201029T171500Z
-UID:b6853aa9-da37-4516-bd70-3c76e0fddf87
+UID:44a27d68-ddc2-481d-a96b-99af51c9ee2b
 DTSTART;TZID=Europe/Warsaw:20201112T181500
 DTEND;TZID=Europe/Warsaw:20201112T201500
 SUMMARY:Open Arena (member presentations)
@@ -484,7 +484,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20201026T171500Z
-UID:49402d65-568d-4d87-b23a-2c64441b48e0
+UID:e06b0faf-8bbd-422a-9e11-5301f6ec09db
 DTSTART;TZID=Europe/Warsaw:20201109T181500
 DTEND;TZID=Europe/Warsaw:20201109T201500
 SUMMARY:Reverse Engineering - workshop 2
@@ -493,7 +493,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20201022T161500Z
-UID:b9ba53c2-5d5d-444f-b0bd-8d7c41899559
+UID:7c578c5e-e422-4843-9af7-6b58b25bd72f
 DTSTART;TZID=Europe/Warsaw:20201105T181500
 DTEND;TZID=Europe/Warsaw:20201105T201500
 SUMMARY:Wide view on Cybersecurity landscape - challenges and solutions
@@ -502,7 +502,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20201019T161500Z
-UID:9ff1b393-4e3f-432b-b6d7-e30d9c0380c5
+UID:1d1c629b-3e20-4b1e-85df-48e39a966498
 DTSTART;TZID=Europe/Warsaw:20201102T181500
 DTEND;TZID=Europe/Warsaw:20201102T201500
 SUMMARY:Introduction to x86 assembly
@@ -511,7 +511,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20201015T161500Z
-UID:4e1710cc-e243-4f68-9d9d-3a238ea9a9c3
+UID:b698659c-410a-4fbd-9dd6-e34c3d234166
 DTSTART;TZID=Europe/Warsaw:20201029T181500
 DTEND;TZID=Europe/Warsaw:20201029T201500
 SUMMARY:What do we know for sure?
@@ -520,7 +520,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20201008T161500Z
-UID:81cdb5f5-1a36-4dbb-85c3-5a729514b0c8
+UID:1fb02e76-307f-403e-953a-a0d10eeac6ac
 DTSTART;TZID=Europe/Warsaw:20201022T181500
 DTEND;TZID=Europe/Warsaw:20201022T201500
 SUMMARY:Introduction to Python
@@ -529,7 +529,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20201001T161500Z
-UID:2e45c861-6b00-4489-a04f-08b62a60116e
+UID:3795aecc-af79-4a9e-8414-b28d14dd934c
 DTSTART;TZID=Europe/Warsaw:20201015T181500
 DTEND;TZID=Europe/Warsaw:20201015T201500
 SUMMARY:Reverse Engineering - workshop 1
@@ -538,7 +538,7 @@ DESCRIPTION:Spotkanie koła KNCyber\n\nBieżące informacje i szczegóły na ser
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20200924T161500Z
-UID:ccf14987-c4a0-4574-9197-c3a67d50fb56
+UID:2f6142f5-83c8-4677-ad62-4853b5204778
 DTSTART;TZID=Europe/Warsaw:20201008T181500
 DTEND;TZID=Europe/Warsaw:20201008T201500
 SUMMARY:Introduction to Science Club
