@@ -1,0 +1,24 @@
+name: "Build and test"
+on:
+  push:
+    branches:
+    - master
+  pull_request:
+    branches:
+    - master
+permissions:
+  contents: write
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npx eleventy
+        env:
+          FLAG: "DUMMY"
