@@ -8,6 +8,10 @@ layout: "layouts/post.njk"
 - [Facebook page](https://www.facebook.com/KoloCyber)
 - [ICS Calendar](/calendar.ics) (Subscribe URL in your calendar)
 
+{% event "2024-12-05" "Burp V2 - Czyli ciąg dalszy podatności webowych" %}
+{% event "2024-11-21" "Burp Suite w akcji: Podstawowe podatności webowe" %}
+{% event "2024-11-07" "Praktyczny Linux (warsztaty)" %}
+{% event "2024-10-24" "Trochę o nas i trochę o Linuxie" %}
 {% event "2024-01-11" "Wprowadzenie do testowania aplikacji mobilnych" %}
 {% event "2023-12-14" "Krótka historia o pewnym CTFie" %}
 {% event "2023-11-30" "Wstęp do exploitacji binarnej part 1" %}
