@@ -3,11 +3,13 @@ layout: "layouts/post.njk"
 ---
 ### Events
 
-- Thursdays 18:15 - everything else
+- Thursdays (or Mondays) 18:15
 - [Discord link](https://discord.gg/DjVypPcV8c)
 - [Facebook page](https://www.facebook.com/KoloCyber)
 - [ICS Calendar](/calendar.ics) (Subscribe URL in your calendar)
 
+{% event "2025-11-03" "Jak nauczyliśmy się hakować karty miejskie?" %}
+{% event "2025-10-05" "Wstęp do koła, Nix" %}
 {% event "2024-12-05" "Burp V2 - Czyli ciąg dalszy podatności webowych" %}
 {% event "2024-11-21" "Burp Suite w akcji: Podstawowe podatności webowe" %}
 {% event "2024-11-07" "Praktyczny Linux (warsztaty)" %}
