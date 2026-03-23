@@ -7,7 +7,7 @@
     "build": "eleventy --input=. --output=_site"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy": "^3.1.5",
     "luxon": "^3.7.2",
     "uuid": "^13.0.0"
   }
