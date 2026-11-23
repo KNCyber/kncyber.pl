@@ -8,6 +8,10 @@ layout: "layouts/post.njk"
 - [Facebook page](https://www.facebook.com/KoloCyber)
 - [ICS Calendar](/calendar.ics) (Subscribe URL in your calendar)
 
+{% event "2026-11-26" "Jak wykryć i zablokować prawie 400 tysięcy przestępczych domen" "by kazet" %}
+{% event "2026-11-12" "Web Exploitation + SpookyCTF" %}
+{% event "2026-11-05" "Program CVE od kuchni oraz czemu CERT Polska ma swoje Bug Bounty" "by Łukasz Gruszczelak" %}
+{% event "2026-10-29" "Nie znam assembly, więc podrobiłem serwer" %}
 {% event "2026-10-22" "Systemy antypirackie w grach komputerowych i sposoby ich obchodzenia" %}
 {% event "2026-10-15" "Wstęp do systemów operacyjnych i trochę specyficznie o linuxie" %}
 {% event "2026-10-08" "Wprowadzenie do koła naukowego" %}
